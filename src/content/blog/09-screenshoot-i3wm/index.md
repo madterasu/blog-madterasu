@@ -4,7 +4,9 @@ description: "Cara screenshot di I3WM Debian 12"
 date: "07/22/2024"
 ---
 
-Halo rekk! Piye kabar eee? Semoga sehat terus lan semangat terus ya! 😺 Kali ini aku bakal bagi-bagi cara gampang buat ngambil screenshot di lingkungan i3 dengan beberapa alat keren: `maim`, `xclip`, lan `copyq`. Ini pas banget buat kalian sing suka ngatur desktop supaya lebih efisien.
+![Square Pants](./madterasu-screenshot-i3wm-debian.png)
+
+Halo rekk! Piye kabar eee? Semoga sehat terus lan semangat terus yo! 😺 Saiki aku bakal bagi-bagi cara gampang buat ngambil screenshot di lingkungan i3 dengan beberapa alat keren, seperti `maim`, `xclip`, lan `copyq`. Ini pas banget buat kalian sing suka ngatur desktop supaya lebih efisien.
 
 #### Instalasi Bahan-Bahan
 
@@ -16,7 +18,7 @@ sudo apt install maim xclip copyq
 
 #### Konfigurasi I3
 
-Yen kabeh alat wis terinstal, waktunya ngatur i3 supaya bisa ngambil screenshot dengan gampang. Buka file konfigurasi i3 ing `~/.config/i3/config` lan tambahkan kode berikut:
+Yen kabeh alat wis terinstal, waktune ngatur i3 supaya bisa ngambil screenshot dengan gampang. Buka file konfigurasi i3 di `~/.config/i3/config` terus tambahi kode berikut:
 
 ```bash
 ## Screenshots
@@ -29,12 +31,12 @@ bindsym Ctrl+Print exec --no-startup-id maim | xclip -selection clipboard -t ima
 bindsym Ctrl+$mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
 bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection clipboard -t image/png
 ```
-Penjelasan singkat tentang konfigurasi iki:
+Tak jelasno singkat tentang konfigurasi iki:
 
-- `Print` bakal ngambil screenshot kabeh layar lan nyimpené ing folder Pictures.
-- `$mod+Print` bakal ngambil screenshot saka jendela aktif.
-- `Shift+Print` bakal ngidini kalian milih area tartamtu kanggo diambil screenshot-nya. Kombinasi karo Ctrl bakal nyalin screenshot langsung ke clipboard.
+- `Print` bakal ngambil screenshot kabeh layar lan nyimpené di folder Pictures.
+- `$mod+Print` bakal ngambil screenshot dari jendela aktif.
+- `Shift+Print` bakal ngijini kalian milih area tertentu kanggo diambil screenshot-nya. Kombinasi karo Ctrl bakal nyalin screenshot langsung ke clipboard.
 
-Yen wis nambah kode kasebut, aja lali me-reload konfigurasi i3 nganggo `super + shift + r`. Iki bakal menerapkan perubahan lan langsung nggawe konfigurasi anyar siap dipake. 😺
+Yen wis nambah kode tersebut, <mark>ojo lali nge-reload konfigurasi i3</mark> nganggo <kbd>super</kbd> + <kbd>shift</kbd> + <kbd>r</kbd>. Iki bakal menerapkan perubahan lan langsung nggawe konfigurasi anyar siap dipake. 😺
 
-Kanthi pengaturan iki, kalian bisa njupuk screenshot kanthi gampang lan cepet. Selamat nyoba, lan mugi kalian suka karo cara anyar kanggo nangkep gambar ing desktop kalian! 😸😸😸
+Kanthi pengaturan iki, kalian bisa njupuk screenshot kanthi gampang lan cepet. Selamat nyoba, lan semoga kalian suka karo cara anyar kanggo nangkep gambar ing desktop awamu kabeh bresss! 😸😸😸
