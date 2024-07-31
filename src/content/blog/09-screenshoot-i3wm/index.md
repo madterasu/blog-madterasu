@@ -12,7 +12,6 @@ Pertama-tama, kita perlu menginstal beberapa alat yang akan kita gunakan. Buka t
 ```bash
 sudo apt install maim xclip copyq
 ```
----
 
 ### Konfigurasi I3
 
