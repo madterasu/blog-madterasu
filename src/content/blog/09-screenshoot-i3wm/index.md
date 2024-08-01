@@ -1,6 +1,6 @@
 ---
 title: "Cara Mudah Mengambil Screenshot di i3 dengan Maim dan xclip"
-description: "Cara screenshot di I3WM Debian 12"
+description: "Screenshot pada i3 Debian 12"
 date: "07/22/2024"
 ---
 
