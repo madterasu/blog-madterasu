@@ -4,7 +4,7 @@ description: "Screenshot pada i3 Debian 12"
 date: "07/22/2024"
 ---
 
-![Square Pants](./madterasu-screenshot-i3wm-debian.png)
+![screenshot i3wm debian 12](./madterasu-screenshot-i3wm-debian.png)
 
 Halo rekk! Piye kabar eee? Semoga sehat terus lan semangat terus yo! 😺 Saiki aku bakal bagi-bagi cara gampang buat ngambil screenshot di lingkungan i3 dengan beberapa alat keren, seperti `maim`, `xclip`, lan `copyq`. Ini pas banget buat kalian sing suka ngatur desktop supaya lebih efisien.
 
@@ -33,9 +33,12 @@ bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection c
 ```
 Tak jelasno singkat tentang konfigurasi iki:
 
-- `Print` bakal ngambil screenshot kabeh layar lan nyimpené di folder Pictures.
-- `$mod+Print` bakal ngambil screenshot dari jendela aktif.
-- `Shift+Print` bakal ngijini kalian milih area tertentu kanggo diambil screenshot-nya. Kombinasi karo Ctrl bakal nyalin screenshot langsung ke clipboard.
+| Key Bindings    | Keterangan |
+| :------ | --: |
+|<kbd>print</kbd>| bakal ngambil screenshot kabeh layar lan nyimpené di folder Pictures. |
+|<kbd>$mod</kbd> + <kbd>print</kbd>| bakal ngambil screenshot dari jendela aktif. |
+|<kbd>$mod</kbd> + <kbd>print</kbd>| bakal ngijini kalian milih area tertentu kanggo diambil screenshot-nya. |
+|<kbd>ctrl</kbd> + <kbd>$mod</kbd> + <kbd>print</kbd>| bakal nyalin screenshot langsung ke clipboard. |
 
 Yen wis nambah kode tersebut, <mark>ojo lali nge-reload konfigurasi i3</mark> nganggo <kbd>super</kbd> + <kbd>shift</kbd> + <kbd>r</kbd>. Iki bakal menerapkan perubahan lan langsung nggawe konfigurasi anyar siap dipake. 😺
 
