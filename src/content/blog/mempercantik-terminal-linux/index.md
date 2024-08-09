@@ -4,7 +4,7 @@ description: "Mempercantik terminal Linux dengan Figlet dan Lolcat pada i3 Debia
 date: "08/02/2024"
 ---
 
-![terminal i3 debian keren](./madterasu-terminal-warna-warni-hacker.png)
+![terminal i3 debian keren](/madterasu-terminal-warna-warni-hacker.png)
 
 Jreng jet madterasu in the house yoo! 🍻 Agar terlihat ergibi gaming hahaha 😺 kali ini aku bakal bagi-bagi cara gampang buat bikin terminal Linux-mu jadi lebih keren dengan bantuan figlet lan lolcat. Yuk, langsung aja kita mulai!
 
