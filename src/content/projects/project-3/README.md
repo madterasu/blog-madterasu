@@ -3,13 +3,14 @@ title: "Ollama - LLava Image Describer v1.0.0"
 description: "Aplikasi PyQt6 untuk mendeskripsikan gambar secara otomatis menggunakan model LLava."
 date: "Augst 09 2024"
 repoURL: "https://github.com/madterasu/ollama-llava-image-describer"
+draft: false
 ---
 
 # Ollama - LLava Image Describer v1.0.0 🐍
 
 Sebuah aplikasi PyQt6 yang terintegrasi dengan library `pyollama` untuk menjalankan model multi-modal seperti `llava`. Aplikasi ini menyediakan antarmuka yang mudah digunakan untuk mengunggah gambar, memasukkan prompt, dan menghasilkan respons.
 
-![Screenshot Aplikasi](./Ollama%20-%20LLava%20Image%20Describer.jpeg)
+![Screenshot Aplikasi](/Ollama%20-%20LLava%20Image%20Describer.jpeg)
 
 ## Fitur ✨
 
@@ -22,8 +23,8 @@ Sebuah aplikasi PyQt6 yang terintegrasi dengan library `pyollama` untuk menjalan
 
 - Python 3.x
 - PyQt6
-- markdown
-- pyollama
+- Markdown
+- Pyollama
 
 ## Instalasi ⚙️
 
