@@ -31,8 +31,8 @@ Sebuah aplikasi PyQt6 yang terintegrasi dengan library `pyollama` untuk menjalan
 1. **Klon repository**:
 
     ```bash
-    git clone https://github.com/username-kamu/nama-repo-kamu.git
-    cd nama-repo-kamu
+    git clone https://github.com/madterasu/ollama-llava-image-describer
+    cd ollama-llava-image-describer
     ```
 
 2. **Instal dependensi**:
