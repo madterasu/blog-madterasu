@@ -6,15 +6,13 @@ repoURL: "https://github.com/madterasu/sysadmin-automation-scripts.git"
 draft: false
 ---
 
-# 🧑‍💻 Otomatisasi Ala SysAdmin
-
 Halo rek! 👋  
 Pernah kepikiran gak sih, gimana caranya ngejaga server biar tetap sehat walafiat dan data penting tetep aman sentosa? 🐧📦  
 Nahh, di blog kali ini aku mau share **script Bash sederhana** yang bisa bantu kamu buat ngelakuin dua hal penting itu secara otomatis. Cusss disimak yaa~ 😽
 
 ---
 
-## 🔧 Kenapa Perlu Otomatisasi?
+#### 🔧 Kenapa Perlu Otomatisasi?
 
 Sebagai orang yang (pura-puranya) jadi System Administrator, kerjaan kita tuh gak jauh-jauh dari yang namanya:
 
@@ -28,11 +26,11 @@ Hidup jadi lebih santai, tinggal minum kopi sambil ngeliatin server jalan otomat
 
 ---
 
-## 📜 Isi Script-nya Ngapain Aja?
+#### 📜 Isi Script-nya Ngapain Aja?
 
 Script ini punya dua fitur utama:
 
-### 🩺 1. Laporan Kesehatan Sistem
+1. Laporan Kesehatan Sistem
 
 Setiap kali script dijalankan, dia bakal bikin log yang isinya:
 
@@ -42,7 +40,7 @@ Setiap kali script dijalankan, dia bakal bikin log yang isinya:
 
 Semua info itu disimpan ke file log, lengkap sama timestamp-nya. Jadi bisa dicek history-nya kapan aja~ 🕒
 
-### 💾 2. Backup Direktori Penting
+2. Backup Direktori Penting
 
 Script ini juga bakal:
 
@@ -54,18 +52,18 @@ Jadi misal tiba-tiba server rusak atau file kehapus, tinggal ambil dari backup. 
 
 ---
 
-## 🚀 Cara Pakai Script-nya Gimana, Kak?
+#### 🚀 Cara Pakai Script-nya Gimana, Kak?
 
 Tenang, gampang kok! Ini langkah-langkahnya:
 
-### 🔹 1. Clone dulu repo-nya:
+1. Clone dulu repo-nya:
 
 ```bash
 git clone https://github.com/madterasu/sysadmin-automation-scripts.git
 cd sysadmin-automation-scripts
 ```
 
-### ⚙️ 2. Atur Konfigurasi
+2. Atur Konfigurasi
 
 Buka file `health_check_and_backup.sh`, terus ubah bagian variabel berikut sesuai kebutuhanmu:
 
@@ -75,7 +73,7 @@ BACKUP_DEST="/home/user/backup"
 LOG_FILE="/home/user/system_health.log"
 ```
 
-### 🔐 3. Kasih Izin Eksekusi
+3. Kasih Izin Eksekusi
 
 Biar script-nya bisa dijalankan, kasih izin eksekusi dulu:
 
@@ -83,7 +81,7 @@ Biar script-nya bisa dijalankan, kasih izin eksekusi dulu:
 chmod +x health_check_and_backup.sh
 ```
 
-### 🚀 4. Jalankan Script-nya
+4. Jalankan Script-nya
 
 Langsung eksekusi script-nya dengan cara berikut:
 
@@ -99,17 +97,17 @@ Hasilnya:
 
 ---
 
-## ⏰ 5. Biar Jalan Otomatis Setiap Hari
+#### Biar Jalan Otomatis Setiap Hari
 
 Kalau pengin script ini dijalankan otomatis setiap hari (misalnya jam 02:00 pagi), tinggal tambahkan baris berikut ke crontab kamu:
 
-### Buka crontab:
+##### Buka crontab:
 
 ```bash
 crontab -e
 ```
 
-### Tambahkan baris ini:
+##### Tambahkan baris ini:
 
 ```bash
 0 2 * * * /path/ke/script/anda/health_check_and_backup.sh
@@ -119,7 +117,7 @@ Sekarang script kamu bakal jalan tiap hari jam 2 pagi secara otomatis\~ 😴✨
 
 ---
 
-## 📁 Contoh Isi Script
+#### 📁 Contoh Isi Script
 
 Berikut contoh isi file `health_check_and_backup.sh`:
 
@@ -151,15 +149,11 @@ echo "[$TIMESTAMP] Backup disimpan di: $TAR_FILE" >> "$LOG_FILE"
 
 ---
 
-## 🎁 Kecil-kecil Cabe Rawit! 🌶️
-
 Script ini memang sederhana, tapi manfaatnya gedhe rek!
 Mulai dari simulasi tugas SysAdmin, project kampus, sampai server beneran, bisa banget pake ini.
 
 Kalau kamu ngerasa script ini membantu, boleh dong dikasih ⭐ di GitHub\~
 biar aku semangat terus bagi-bagi ilmu lainnya 😽
-
----
 
 > *"Otomatisasi itu bukan buat males-malesan, tapi biar waktumu bisa dipake buat hal yang lebih penting\~"* 💡
 

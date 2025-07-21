@@ -1,5 +1,5 @@
 ---
-title: "Belajar Bash Scripting: Jalan Pintas Jadi Master Terminal"
+title: "Belajar Bash Scripting - Jalan Pintas Jadi Master Terminal"
 description: "Mempercantik terminal Linux dengan Figlet dan Lolcat pada i3 Debian 12"
 date: "08/09/2024"
 ---
