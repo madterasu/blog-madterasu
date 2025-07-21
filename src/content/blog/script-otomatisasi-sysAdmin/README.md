@@ -1,5 +1,5 @@
 ---
-title: "Script Otomatisasi SysAdmin >> Health Check & Backup"
+title: "Script Otomatisasi SysAdmin - Health Check & Backup"
 description: "Sebuah script Bash sederhana untuk monitoring kesehatan sistem dan backup otomatis direktori penting di Linux."
 date: "July 21 2025"
 repoURL: "https://github.com/madterasu/sysadmin-automation-scripts.git"
